@@ -16,7 +16,7 @@ const (
 
 // Training общая структура для всех тренировок
 type Training struct {
-	TrainingType string        // тип тренировки
+	TrainingType string        // тип тренировки !
 	Action       int           // количество повторов(шаги, гребки при плавании)
 	LenStep      float64       // длина одного шага или гребка в м
 	Duration     time.Duration // продолжительность тренировки
